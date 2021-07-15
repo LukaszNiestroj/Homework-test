@@ -4,7 +4,7 @@ Scenario('PracticeForm_ComplementForm', ({ I }) => {
     I.amOnPage('https://demoqa.com/automation-practice-form');
     I.fillField("//input[@id='firstName']", "Łukasz");
     I.fillField("//input[@id='lastName']", "Niestrój");
-    I.fillField("//input[@id='userEmail']", "lukas.niestroj@gmail.com");
+    I.fillField("//input[@id='userEmail']", "lukas.nnn@gmail.com");
     I.click('Male');
     I.fillField("//input[@id='userNumber']", "111111111");
     I.fillField("//input[@id='dateOfBirthInput']", "12 May 1994");
