@@ -16,7 +16,7 @@ Scenario('PracticeForm_ComplementForm', ({ I }) => {
     I.click('Sport');
     I.fillField("//textarea[@id='currentAddress']", "ul. Powstańców Śląskich");
     I.click("//div[contains(text(),'Select State')]");
-    I.selectOption("//div[@id='state']//div[contains(@class,'css-yk16xz-control')]//div[contains(@class,'css-1hwfws3')]", "NCR");
+    I.click("//div[@class='mt-4 justify-content-end row']", "NCR");
     I.click("//div[contains(text(),'Select City')]", "Delhi");
     I.click("//button[@id='submit']");
 
