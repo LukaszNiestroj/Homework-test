@@ -26,6 +26,7 @@ Scenario('PracticeForm_ComplementForm', ({ I }) => {
     I.click("//div[contains(@class,'option') and contains(text(),'Physics')]");
     I.wait(1)
     I.click('Sport');
+    I.attachFile(locator, path);
     I.fillField("//textarea[@id='currentAddress']", "ul. Powstańców Śląskich");
     I.wait(1)
     I.click("//div[contains(text(),'Select State')]");
